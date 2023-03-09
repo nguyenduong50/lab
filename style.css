@@ -88,3 +88,53 @@ footer{
     height: 100%;
     line-height: 100%;
 }
+
+/*--------------------*/
+/* Other Device */
+/*--------------------*/
+
+@media screen and (max-width: 1600px){
+    .carousel-signup{
+        margin-top: 300px;
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .carousel-signup{
+        margin-top: 300px;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .carousel-signup{
+        margin-top: 250px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .carousel-signup h5{
+        font-size: 26px;
+    }
+
+    .carousel-signup p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .carousel-signup {
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .carousel-signup h5{
+        font-size: 20px;
+    }
+
+    .carousel-signup p{
+        font-size: 10px;
+    }
+}

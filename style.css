@@ -1,0 +1,90 @@
+/*--------------------*/
+/* General */
+/*--------------------*/
+
+
+
+/*--------------------*/
+/* Header */
+/*--------------------*/
+
+/*--------------------*/
+/* Slider */
+/*--------------------*/
+
+.slider1{
+    background-image: url(./image/slider/slider1.jpg);
+    background-size: cover;
+    background-color: rgba(13, 70, 228, 0.76);
+    height: 85vh;
+
+}
+
+.slider2{
+    background-image: url(./image/slider/slider2.jpg);
+    background-size: cover;
+    background-color: rgba(13, 228, 77, 0.801);
+    height: 85vh;
+}
+
+.slider3{
+    background-image: url(./image/slider/slider3.jpg);
+    background-size: cover;
+    background-color: rgba(228, 92, 13, 0.76);
+    height: 85vh;
+}
+
+.carousel-signup{
+    margin-top: 450px;
+    margin-left: 350px;
+    color: aliceblue;
+}
+
+.carousel-signup h5{
+    font-size: 50px;
+}
+
+/*--------------------*/
+/* Game */
+/*--------------------*/
+
+.game h2{
+    color: #ffffff;
+}
+
+.game img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 0px rgb(241, 244, 247);
+    transition: all .2s;
+    margin-bottom: 10px;
+}
+
+.game img:hover {
+    filter: brightness(120%) blur(0.5px);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.game p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+/*--------------------*/
+/* Footer */
+/*--------------------*/
+
+footer{
+    background-image:linear-gradient(45deg, rgba(2,33,64, 0.8) 55%,rgba(45,95,93,0.8));
+    color: #ffffff;
+    height: 80px;
+    font-size: 20px;
+}
+
+.foot{
+    height: 100%;
+    line-height: 100%;
+}
